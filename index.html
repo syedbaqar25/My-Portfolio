@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" </link>
+    <link rel="stylesheet" href="resp-index.css" </link>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <div id="minicircle"></div>
+    <nav class="navbar">
+
+        <nav class="navleft">
+            Syed Baqar
+        </nav>
+        <nav class="navright">
+            <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Skills</a></li>
+                <li><a href="skills.html">Portfolio</a></li>
+                <li><a href="portfolio.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+        <img src="images/hamburger-icon.png" alt="Menu Bar" class="burger d-none" id="hamburger">
+        <img src="images/cross.png" alt="Menu Bar" class="cross d-none" id="cross">
+        <div class="dropdown" id="dropdownn">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">Skills</a>
+            <a href="skills.html">Portfolio</a>
+            <a href="portfolio.html">About</a>
+            <a href="contact.html">Contact Me</a>
+
+        </div>
+    </nav>
+
+    <div class="main">
+
+        <div class="img">
+            <img src="images/portfolioimg2.png" alt="mypic" class="image">
+        </div>
+
+        <div class="text">
+
+            <h1>Hi, I am Syed Baqar Abbas</h1>
+            <!-- <div class="box">
+                <span class="sec-text">Frontend Developer</span>
+            </div> -->
+            <span id="element"></span>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam aliquam in quaerat unde doloremque deleniti
+                accusamus, necessitatibus at voluptas eum expedita? Molestias voluptates, aut modi pariatur magnam in.
+                Tempore, ipsam.</p>
+
+            <div class="buttons">
+                <button class="button" id="b1">Hire Me</button>
+                <button class="button" id="b2">Let's Talk</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="horizontal-bar"></div>
+
+
+
+    <!-- <div class="social-media-handles">
+
+        <a href="">
+            <img src="images/facebook-logo.png" alt="fb" class="logos" id="fb">
+        </a>
+
+        <a href="">
+            <img src="images/twitter-logo.png" alt="tweet" class="logos" id="tweet">
+        </a>
+
+        <a href="https://instagram.com/syed__baqar?igshid=MzRlODBiNWFlZA==">
+            <img src="images/instagram-logo.png" alt="insta" class="logos" id="insta">
+        </a>
+
+        <a href="">
+            <img src="images/linkedin-logo.png" alt="linkdn" class="logos" id="linkdn">
+        </a>
+
+    </div>  -->
+
+
+    <!-- second section starts from here -->
+
+    <section class="skills-sec">
+        <h1 class="skills">My Skills</h1>
+
+        <div class="row-1">
+
+            <div class="techstack-img-box">
+
+                <div class="techstack-img"> <img src="images/html-logo.png" id="html-logo"></img> </div>
+                <h3>Html</h3>
+            </div>
+            <div class="techstack-img-box" title="heyyy">
+                <div class="techstack-img"> <img src="images/css-logo.png" id="css-logo"></img> </div>
+                <h3>Css</h3>
+            </div>
+            <div class="techstack-img-box">
+                <div class="techstack-img"> <img src="images/js-logo.png" id="js-logo"></img> </div>
+                <h3>JavaScript</h3>
+            </div>
+
+        </div>
+
+        <div class="row-2">
+
+            <div class="techstack-img-box">
+                <div class="techstack-img"> <img src="images/react-logo2.png" id="react-logo"></img> </div>
+                <h3>React.Js</h3>
+            </div>
+            <div class="techstack-img-box">
+                <div class="techstack-img"> <img src="images/tailwindcss-logo.png" id="tailwindcss-logo"></img> </div>
+                <h3>Tailwind Css</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <div class="horizontal-bar"></div>
+
+
+    <!-- Third section starts from here -->
+
+    <section class="portfolio-sec">
+
+        <h1 class="portfolio">Portfolio</h1>
+
+        <div class="portfolio-sec-row1-imgs">
+
+            <div class="rectangles">
+                <img class="portfolio-sec-imgs" id="qualifications-img" src="images/qualificationss.png" alt="">
+                <h3>Qualifications</h3>
+            </div>
+            <div class="rectangles">
+                <img class="portfolio-sec-imgs" id="skills-img" src="images/skills.png" alt="">
+                <h3>Skills</h3>
+            </div>
+
+        </div>
+
+
+        <div class="portfolio-sec-row2-imgs">
+
+            <div class="rectangles">
+                <img class="portfolio-sec-imgs" id="academics-img" src="images/academics.png" alt="">
+                <h3>Academics</h3>
+            </div>
+            <div class="rectangles">
+                <img class="portfolio-sec-imgs" id="hobbies-img" src="images/hobbies.png" alt="">
+                <h3>My Hobbies</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'College Student', 'Coder', 'Web developer', 'College Student', 'Coder', 'Web Developer', 'Web Developer', 'College Student', 'Coder', 'Web developer', 'College Student', 'Coder', 'Web Developer', 'Web Developer', 'College Student', 'Coder', 'Web developer', 'College Student', 'Coder', 'Web Developer', 'Web Developer', 'College Student', 'Coder', 'Web developer', 'College Student', 'Coder', 'Web Developer'],
+            typeSpeed: 45,
+        });
+    </script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Draggable.min.js" integrity="sha512-S6SXKUZ11xkCoD/UuhdXG4B4iiCXng+xW2KCx0lgfQqmdqtjqGgm4WChdYIhO1F/CmH21vnkSUvPEgXNgDwkjg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+
+
+</html>

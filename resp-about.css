@@ -1,0 +1,24 @@
+@media (max-width: 1380px) {
+    body {
+        padding: 0px 100px;
+        /* background-color: red; */
+    }
+}
+@media (max-width: 1280px) {
+    body {
+        padding: 0px 50px;
+        /* background-color: red; */
+    }
+}
+@media (max-width: 1172px) {
+    body {
+        padding: 0px 10px;
+        /* background-color: red; */
+    }
+}
+@media (max-width: 1090px) {
+    .main{
+        /* flex-wrap: wrap; */
+        /* background-color: red; */
+    }
+}
